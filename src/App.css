@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
-}
+/*
+initial color palette
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+cyber grape - 6b548c
+cadet blue - 639fab
+melon - fcb4b1
+rosewood - 5a0001
+black - 000000
+flax - e3d38c
+linen - f7ece1
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+url to coolors - https://coolors.co/6b548c-639fab-fcb4b1-5a0001-000000-e3d38c-f7ece1
+*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#navBarMainDiv {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 5px solid blue;
+}
+
+#namePlateDiv {
+  flex-grow: 1;
+  background: red;
+  border: 5px solid blue;
+}
+
+.namePlate {
+  display: inline-block;
+}
+
+#navDiv {
+  height: 100%;
+  flex-grow: 1;
+  border: 5px solid green;
+}
+
+nav {
+  text-align: center;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #639fab;
+}
+
+/*
+* {
+  border: 1px solid red;
+}
+*/
+
+/*
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-areas:
+    'header'
+    'body'
+    'footer';
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background: transparent;
+  background-image: url('./images/books.jpg');
+  background-size: auto;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
   color: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #5a0001;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3,
+h4 {
+  margin-bottom: 0;
 }
+
+nav {
+  border-bottom: 4px solid #6b548c;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  color: #639fab;
+}
+
+#page-body {
+  display: flex;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 64px;
+  background: transparent;
+}
+
+footer {
+  background: transparent;
+}
+*/
