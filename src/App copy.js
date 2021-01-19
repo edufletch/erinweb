@@ -7,7 +7,7 @@ import Connect from './pages/Connect';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import Subscribe from './pages/Subscribe';
-import Navbar from './components/Navbar/Navbar';
+import NavBar from './components/NavBar';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
       <Router>
         <body>
           <header>
-            <Navbar />
+            <NavBar />
           </header>
           <main>
             <Switch>
